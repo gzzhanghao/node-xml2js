@@ -67,11 +67,11 @@ class exports.Parser extends events.EventEmitter
     @removeAllListeners()
     # make the SAX parser. tried trim and normalize, but they are not
     # very helpful
-    @saxParser = sax.parser @options.strict, {
+    @saxParser = sax.parser @options.strict, Object.assign {
       trim: false,
       normalize: false,
       xmlns: @options.xmlns
-    }
+    }, @options.saxOptions
 
     # emit one error event if the sax parser fails. this is mostly a hack, but
     # the sax parser isn't state of the art either.
