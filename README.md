@@ -1,6 +1,8 @@
 node-xml2js
 ===========
 
+___This package is forked from [Leonidas-from-XIV/node-xml2js](https://github.com/Leonidas-from-XIV/node-xml2js), use it instead___
+
 Ever had the urge to parse XML? And wanted to access the data in some sane,
 easy way? Don't want to compile a C parser, for whatever reason? Then xml2js is
 what you're looking for!
