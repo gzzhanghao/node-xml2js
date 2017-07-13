@@ -1,6 +1,6 @@
 "use strict"
 
-sax = require 'sax'
+sax = require '@gzzhanghao/sax'
 events = require 'events'
 bom = require './bom'
 processors = require './processors'
